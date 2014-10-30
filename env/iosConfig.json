@@ -1,0 +1,8 @@
+{"ios7.1-xcode5-iphoneSimulator":{"platformVersion": "7.1", 
+		      "deviceName": "iPhoneSimulator"},
+		      
+ "ios7.1-iphone5s-Simulator":{"platformVersion": "7.1", 
+		      "deviceName": "iPhone 5s"}, 
+
+ "ios8.1-iphone6-Simulator":{"platformVersion": "8.1", 
+		      "deviceName": "iPhone 6"}}

@@ -1,0 +1,13 @@
+# build script files
+output
+
+# nodejs modules
+node_modules
+npm-debug.log
+
+# Python
+*.pyc
+*.xml
+
+# Logs
+logs
