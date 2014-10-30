@@ -86,8 +86,8 @@ class Android(Device):
                 if (self.selendroid == 1):
                     self.dcapability['app'] = self.appPath
                 else:
-                    #self.uninstallApp(self.androidPackage)
-                    #self.installApp(self.appPath)
+                    self.uninstallApp(self.androidPackage)
+                    self.installApp(self.appPath)
 
                     if (self.lookupAttr(self.appConfig, 'wait',continue_on_error=True)):
                         waitTime = self.lookupAttr(self.appConfig, 'wait')

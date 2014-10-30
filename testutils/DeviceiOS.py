@@ -23,7 +23,7 @@ class iOS(Device):
         self.iosConfig_json = os.path.abspath("framework/env/iosConfig.json")
         self.iosConfig_data = JsonUtil(self.iosConfig_json).getJsonData()
 
-        self.DEFAULT_IOS_CONFIG_NAME="ios7.1-xcode5-iphoneSimulator"
+        self.DEFAULT_IOS_CONFIG_NAME="ios7.1-iphone5s-Simulator"
         self.iosConfig_name = (os.getenv('IOS_CONFIG')) if (os.getenv('IOS_CONFIG') is not None) else self.DEFAULT_IOS_CONFIG_NAME
         
         self.dcapability = {}
