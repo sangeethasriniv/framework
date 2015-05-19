@@ -8,4 +8,4 @@ class AdbPathNotSetException(Exception):
     Adb path is not set in test environment
     """
     def __init__(self):
-        print 'ADB_PATH is not set in test environment'
+        print 'ADB_PATH is not set in test environmenti#####'
